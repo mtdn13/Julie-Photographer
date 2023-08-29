@@ -1,0 +1,388 @@
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+input {
+  border: none;
+}
+
+.wrapper {
+  width: 100%;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+.header {
+  width: 60%;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.9px;
+}
+
+.header .logo {
+  width: 10%;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: space-around;
+  width: 55%;
+}
+
+.header .nav a {
+  text-decoration: none;
+  color: #101010;
+}
+
+.header .header-phone-number {
+  color: #a52424;
+  text-align: right;
+}
+
+.content {
+  width: 60%;
+  max-width: 1920px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .main-title .main-img {
+  max-width: 60%;
+  max-height: 100%;
+}
+
+.main .main-title .main-heading {
+  font-size: 72px;
+  font-weight: 700;
+  letter-spacing: 7.2px;
+  margin: 110px 0 20px 0;
+}
+
+.main .main-title .sub-heading {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 1.1px;
+  margin-bottom: 60px;
+}
+
+.button {
+  text-decoration: none;
+  color: #a52424;
+  border: 1px solid #a52424;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #a52424;
+  border-color: #fff;
+}
+
+.about {
+  margin: 150px 0;
+  width: 100%;
+}
+
+.about .about-heading {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+}
+
+.about .about-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.about .about-container .about-photo {
+  width: 25%;
+  min-width: 250px;
+  margin-top: 45px;
+  position: relative;
+}
+
+.about .about-container .about-info {
+  width: 60%;
+}
+
+.about .about-container .about-info .about-subheading {
+  color: #a52424;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 1.1px;
+  margin-bottom: 20px;
+}
+
+.about .about-container .about-info .about-text {
+  color: #232323;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.9px;
+}
+
+.about .about-container .about-info .img-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.about .about-container .about-info .img-container .about-img-2 {
+  width: 100%;
+}
+
+.box-shadow {
+  box-shadow: 0px 6px 10px 3px rgba(0, 0, 0, 0.05);
+}
+
+.about .about-container .about-photo .about-img {
+  position: relative;
+  width: 90%;
+  top: 10%;
+  left: 25%;
+}
+
+.about .about-container .about-photo .about-name {
+  position: absolute;
+  bottom: 25px;
+  left: 25%;
+  font-size: 22px;
+  color: #a52424;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 1.1px;
+}
+
+.portfolio {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.portfolio-heading {
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+}
+.portfolio .portfolio-card {
+  width: 32%;
+}
+.portfolio .portfolio-card .portfolio-card-img {
+  width: 100%;
+}
+
+.portfolio .portfolio-card .portfolio-card-heading {
+  margin: 20px 0 10px 0;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 1.1px;
+}
+
+.portfolio .portfolio-card .portfolio-card-text {
+  color: #101010;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.9px;
+  margin-bottom: 50px;
+}
+
+.portfolio .portfolio-card .portfolio-button {
+  padding: 15px 50px;
+}
+
+.prices {
+  margin-top: 150px;
+}
+
+.prices .prices-heading {
+  margin: 0 0 150px 0;
+  color: #232323;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+}
+
+.prices .prices-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.prices .prices-container .prices-card {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prices .prices-container .prices-card .prices-card-img {
+  position: relative;
+  top: -100px;
+}
+
+.prices
+  .prices-container
+  .prices-card
+  .prices-card-container
+  .prices-card-heading {
+  color: #a52424;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 100%;
+  margin-top: -100px;
+}
+
+.prices .prices-container .prices-card .prices-card-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prices .prices-container .prices-card .prices-card-container .word {
+  width: 50%;
+  margin: 10px 0;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.prices .prices-container .prices-card .prices-card-container .word-price {
+  color: #a52424;
+  font-size: 36px;
+  font-weight: 600;
+  width: 40%;
+}
+
+.prices .prices-container .prices-card .prices-card-container .prices-button {
+  margin: 25px 0;
+  width: 60%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.appointment {
+  margin-top: 150px;
+}
+
+.appointment .appointment-heading {
+  color: #232323;
+  font-size: 64px;
+  font-weight: 700;
+  letter-spacing: 3.2px;
+  margin: 0 0 100px 0;
+}
+
+.appointment .appointment-container {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.appointment .appointment-container .appointment-img-2 {
+  position: absolute;
+  left: 220px;
+  top: -50px;
+}
+
+.appointment .appointment-container .appointment-form {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.appointment .appointment-container .appointment-form .form-input {
+  width: 90%;
+  margin: 0 0 40px 0;
+  padding: 20px;
+  border: 0.5px solid rgba(35, 35, 35, 0.35);
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+.appointment .appointment-container .appointment-form .form-message {
+  height: 220px;
+  resize: none;
+}
+
+.appointment .appointment-container .appointment-form .form-submit {
+  color: #a52424;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+  border-color: #a52424;
+  background-color: #fff;
+  padding: 15px 0;
+}
+
+::placeholder {
+  color: rgba(35, 35, 35, 0.35);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.9px;
+}
+
+.footer {
+  margin-top: 150px;
+  width: 100%;
+  border-top: 1px solid #232323;
+}
+
+.footer .footer-container {
+  padding: 40px 0;
+  box-sizing: border-box;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .footer-container .socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+
+.footer-phone-number {
+  color: #a52424;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 1.1px;
+}

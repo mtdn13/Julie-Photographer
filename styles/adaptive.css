@@ -1,0 +1,103 @@
+@media screen and (max-width: 1600px) {
+  .appointment .appointment-container .appointment-img-2 {
+    display: none;
+  }
+  
+  .appointment .appointment-container .appointment-form {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1368px) {
+  .content,
+  .header,
+  .footer .footer-container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .content,
+  .header,
+  .footer .footer-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .about .about-container .about-photo {
+    display: none;
+  }
+
+  .about .about-heading,
+  .portfolio-heading,
+  .prices .prices-heading,
+  .appointment .appointment-heading {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about .about-container .about-info {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .portfolio-card {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .portfolio-card .portfolio-card-img {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .header .nav,
+  .main .main-img {
+    display: none;
+  }
+  
+  .main .main-title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .prices .prices-container {
+    justify-content: center;
+  }
+
+  .prices .prices-container .prices-card {
+    width: 80%;
+  }
+
+  .prices .prices-container .prices-card .prices-card-img,
+  .prices
+    .prices-container
+    .prices-card
+    .prices-card-container
+    .prices-card-heading {
+    position: static;
+    margin-top: 20px;
+  }
+
+  .appointment .appointment-container .appointment-img {
+    display: none;
+  }
+
+  .appointment .appointment-container .appointment-form {
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer .footer-container .socials {
+    display: none;
+  }
+}
